@@ -1,0 +1,200 @@
+#WebsiteName{
+    color: purple;
+    background-color: aqua;
+    border: 1em;
+    padding: 1em;
+    margin-left: 100px;
+}
+
+#footer{
+    display:flex;
+    justify-content: space-around;
+    margin-top: 4em;
+    background-color: lightskyblue;
+    padding: 2em;
+    border-radius: 1em;
+}
+
+#looksPictures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2em; 
+    margin:3em;     
+}
+
+.firstRow{
+    width:25em;
+    height:15em;
+    padding-left:1.5em;
+}
+
+#title{
+    display:flex;
+    justify-content: center;
+    margin: 0.5em;
+}
+
+#secondrow{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 1em;
+    padding: 2em; 
+    margin:3em;
+}
+
+
+#logo{
+    display:flex;
+    justify-content: space-around;
+    padding-top:4em;
+}
+
+#searchbar{
+    display:flex;
+    justify-content: center;
+}
+.tierepictures{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;     
+    padding: 2em; 
+}
+
+.logo{
+    display:flex;
+    justify-content: space-around;
+    padding-top:4em;
+}
+
+.tier{
+    display:flex;
+    justify-content: center;
+   padding-top:1em; 
+}
+
+#FAQ{
+    display:flex;
+    justify-content: center;
+    padding-top: 1em;
+}
+
+#AboutUS{
+    display:flex;
+    justify-content: space-around;
+    padding-top:3em;
+}
+
+#DasTeam{
+    display: flex;
+    justify-content: space-around;
+    padding-top:1em;
+}
+
+.navbar-toggler-icon{
+    background-color:white;
+    border-radius: 0.3em;
+}
+.navbar-brand{
+    color:white;
+}
+
+.fixed-top{
+    background-color: black;
+}
+
+#contactf{
+    padding-top:5em;
+}
+
+.container-fluid{
+    background-color: #000000;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 600px;
+    margin: 5px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.zoom-hover {
+    width: 18rem; /* Adjust the initial width as needed */
+    height: 10rem; /* Adjust the initial height as needed */
+    transition: transform 0.5s ease-in-out; /* Set transition for smooth zoom */
+  }
+  
+  .zoom-hover:hover {
+    transform: scale(1.1); /* Zoom in by 20% on hover */
+  }
+
+  body{
+    background-color: #f000;
+  }
+
+  .reveal-on-scroll {
+    opacity: 0; /* Initially hide the element */
+    transition: opacity 1s ease-in-out; /* Set transition for smooth reveal */
+    position: absolute; /* Position the element absolutely */
+    top: 50%; /* Center the element vertically */
+    left: 50%; /* Center the element horizontally */
+    transform: translate(-50%, -50%);  /* Center the element within its container */
+    /* Adjust width and height as needed */
+    width: 300px;
+    height: 200px;
+  }
+  
+  .reveal-on-scroll:in-viewport {
+    opacity: 1; /* Show the element when it's in the viewport */
+  } 
